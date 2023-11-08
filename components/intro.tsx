@@ -37,10 +37,10 @@ export const Intro = () => {
         </div>
       </div>
       <MotionDiv className='flex flex-col items-center justify-center mt-5'>
-        <h1 className='text-3xl'>
+        <h1 className='text-3xl text-center'>
           Hello my name is <strong>Almujahid Jamion</strong>
         </h1>
-        <p className='text-2xl text-center max-w-lg text-gray-700 leading-[1.3]'>
+        <p className='text-2xl text-center max-w-lg text-gray-700 leading-[1.3] dark:text-white/60'>
           I am a Fullstack developer with 5 years of experience. I enjoy
           building sites and apps. My focus is React (NextJs)
         </p>
@@ -63,20 +63,20 @@ export const Intro = () => {
         <a
           href='/cv.pdf'
           download
-          className='group bg-white text-gray-950 rounded-full px-7 py-3 flex items-center gap-2 hover:scale-110 active:scale-100 transition border border-black/10'
+          className='group bg-white text-gray-950 rounded-full px-7 py-3 flex items-center gap-2 hover:scale-110 active:scale-100 transition border border-black/10 dark:bg-white/10 dark:text-white/60'
         >
           Download CV{' '}
           <FaDownload className='opacity-70 group-hover:animate-bounce' />
         </a>
         <a
           href='#'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full active:scale-100 transition border border-black/10 hover:scale-[1.15] hover:text-gray-950'
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full active:scale-100 transition border border-black/10 hover:scale-[1.15] hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
         >
           <FaLinkedin />
         </a>
         <a
           href='#'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full active:scale-100 transition border border-black/10 hover:scale-[1.15] hover:text-gray-950'
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full active:scale-100 transition border border-black/10 hover:scale-[1.15] hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
         >
           <FaGithub />
         </a>

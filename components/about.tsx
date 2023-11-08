@@ -14,7 +14,7 @@ export const About = () => {
     >
       <MotionDiv delay={0.175}>
         <SectionHeading title='About me' />
-        <p className='text-center text-xl'>
+        <p className='text-center text-xl dark:text-white/60'>
           After graduating with a degree of Bachelor of science in Information
           Technology, I decided to work in a Real estate company as a web
           developer. I transitioned into another company where i worked as a

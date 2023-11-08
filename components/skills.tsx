@@ -38,7 +38,7 @@ export const Skills = () => {
               once: true,
             }}
             custom={index}
-            className='bg-white border border-black/[0.1] rounded-xl px-5 py-3'
+            className='bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/20 dark:text-white/80'
             key={index}
           >
             {skill}
