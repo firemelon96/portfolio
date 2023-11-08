@@ -12,7 +12,7 @@ export const Intro = () => {
   const { setIsActive, setTimeOfLastClick } = useActiveSection();
 
   return (
-    <section ref={ref} id='home' className='scroll-mt-36'>
+    <section ref={ref} id='home' className='scroll-mt-36 p-3'>
       <div className='flex items-center justify-center'>
         <div className='relative'>
           <MotionDivImage type='tween'>

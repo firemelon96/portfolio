@@ -13,8 +13,8 @@ import { useSectionInView } from '@/hooks/use-section-in-view';
 import { useTheme } from '@/hooks/use-theme';
 
 export const Experience = () => {
-  const { ref } = useSectionInView('Experience');
   const { theme } = useTheme();
+  const { ref } = useSectionInView('Experience');
 
   return (
     <section ref={ref} id='experience' className='scroll-mt-28 mb-28 sm:mb-40'>

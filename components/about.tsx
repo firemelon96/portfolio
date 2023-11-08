@@ -10,7 +10,7 @@ export const About = () => {
     <section
       ref={ref}
       id='about'
-      className='max-w-lg leading-7 mb-28 sm:mb-40 scroll-mt-28'
+      className='max-w-lg leading-7 mb-28 sm:mb-40 scroll-mt-28 p-3'
     >
       <MotionDiv delay={0.175}>
         <SectionHeading title='About me' />

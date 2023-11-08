@@ -34,7 +34,7 @@ export const ProjectItem = ({
         scrollBehavior: 'smooth',
       }}
       ref={ref}
-      className='group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem] mb-6 last:mb-0 rounded-lg hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 m-3'
+      className='group flex flex-col bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem] mb-6 last:mb-0 rounded-lg hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 m-3'
     >
       <div className='px-5 py-4 sm:pl-10 sm:pr-2 flex flex-col h-full sm:group-even:ml-[20rem] gap-2 sm:pt-10 sm:max-w-[50%]'>
         <h3 className='text-2xl font-semibold'>{title}</h3>
@@ -57,7 +57,7 @@ export const ProjectItem = ({
         src={imageUrl}
         alt={title}
         quality={95}
-        className='absolute hidden sm:block top-12 -right-48 w-3/4 shadow-2xl rounded-t-md group-even:right-[initial] group-even:-left-48 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-hover:scale-110 transition group-even:group-hover:rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3'
+        className='sm:absolute sm:block sm:top-12 sm:-right-48 px-3 pb-3 sm:w-3/4 shadow-2xl rounded-t-md group-even:right-[initial] group-even:-left-48 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-hover:scale-110 transition group-even:group-hover:rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3'
       />
     </motion.section>
   );
