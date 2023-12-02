@@ -1,11 +1,9 @@
 'use client';
-import { ActiveContext } from '@/providers/active-section-context';
 import { useActiveSection } from '@/hooks/use-active-section';
 import { links } from '@/lib/data';
 import clsx from 'clsx';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { useState, useContext } from 'react';
 
 export const Header = () => {
   const { isActive, setIsActive, setTimeOfLastClick } = useActiveSection();
