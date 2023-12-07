@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Almujahid | Personal Portfolio',
   description: 'A full-stack developer with 5 year of experience',
+  metadataBase: new URL('https://portfolio-firemelon96.vercel.app/'),
   openGraph: {
     title: 'Almujahid portfolio',
     description: 'Check out my portfolio, lets connect!',
