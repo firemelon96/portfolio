@@ -9,9 +9,9 @@ export const Projects = () => {
   const { ref } = useSectionInView('Projects', 0.5);
 
   return (
-    <section ref={ref} id='projects' className='scroll-mt-28 mb-28'>
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <MotionDiv delay={0.2}>
-        <SectionHeading title='My Projects' />
+        <SectionHeading title="My Projects" />
 
         <div>
           {projectsData.map((project) => (
@@ -21,6 +21,7 @@ export const Projects = () => {
               description={project.description}
               tags={project.tags}
               imageUrl={project.imageUrl}
+              url={project.url}
             />
           ))}
         </div>

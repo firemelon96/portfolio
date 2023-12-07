@@ -1,7 +1,7 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+import { TbBrandJavascript } from 'react-icons/tb';
 import aipromt from '@/public/ai-prompt.png';
 import ecommerce from '@/public/ecommerce.png';
 import filmpire from '@/public/filmpire.png';
@@ -36,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'React/NextJs Developer',
+    location: 'Home',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
-  },
-  {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+      'Engaged in Javascript mastery courses to enhance and developed critical thinking. Created a projects using Javascript, Reactjs, and NextJs. Expanded knowledge and keep up to date of the latest technology',
+    icon: React.createElement(FaReact),
+    date: '2023-current',
   },
   {
     title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    location: 'Palawan, Ph',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'I worked as a web developer that developed and administrate a journal website for researchers paper submission, Improved the university visibility in the web and help Teachers and student in paper submission. Also able to work with C# to develop a local database of the researches.',
+    icon: React.createElement(CgWorkAlt),
+    date: '2019 - 2022',
+  },
+  {
+    title: 'Full-Stack Developer',
+    location: 'Palawan, Ph',
+    description:
+      'I worked in a Real estate listing property where I developed a website using HTML, CSS, and Javascript. Played a role in ranking the website using SEO tips, also handled a cms to develop a website. Administrate and improved performance that help user experience',
+    icon: React.createElement(TbBrandJavascript),
+    date: '2018-2019',
   },
 ] as const;
 
@@ -65,30 +65,34 @@ export const projectsData = [
   {
     title: 'Filmpire',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+      'An app that is used to browse movies using TMDB API, I develop the app using Vanilla React.',
+    tags: ['React', 'Redux toolkit', 'Tailwind', 'TMDBAPI', 'ALAN AI'],
     imageUrl: filmpire,
+    url: 'https://filmpireaji.netlify.app/',
   },
   {
     title: 'Ai Prompter',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+      'A helpful and useful prompt that is used by users all over the world and be able to share their own prompt for others',
+    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux', 'MongoDB'],
     imageUrl: aipromt,
+    url: 'https://project-promptopia-rust.vercel.app/',
   },
   {
     title: 'Ecommerce',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'A fully functioning multi-vendor ecommerce store developed using Nextjs and reactjs that user can create and list their product',
+    tags: ['React', 'Next.js', 'TypeScript', 'Prisma', 'Tailwind'],
     imageUrl: ecommerce,
+    url: 'https://filmpireaji.netlify.app/',
   },
   {
     title: 'Realtor Clone',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'A listing website that is developed using react with the help of Firebase as authentication, database, and bucket storage.',
+    tags: ['React', 'Tailwind', 'Firebase'],
     imageUrl: realtor,
+    url: 'https://realtor-clone-ebon.vercel.app/',
   },
 ];
 

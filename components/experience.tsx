@@ -16,13 +16,14 @@ export const Experience = () => {
   const { ref } = useSectionInView('Experience');
 
   return (
-    <section ref={ref} id='experience' className='scroll-mt-28 mb-28 sm:mb-40'>
-      <SectionHeading title='My experience' />
-      <VerticalTimeline lineColor=''>
+    <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
+      <SectionHeading title="My experience" />
+      <VerticalTimeline lineColor="">
         {experiencesData.map((experience, index) => (
           <Fragment key={index}>
             <VerticalTimelineElement
               visible
+              className="vertical-timeline-element--work"
               contentStyle={{
                 background:
                   theme === 'light' ? '#f3f4f6' : 'rgba(255,255,255,0.05)',
@@ -45,11 +46,15 @@ export const Experience = () => {
                 fontSize: '1.5rem',
               }}
             >
-              <h3 className='vertical-timeline-element-title'>
+              <h3 className="vertical-timeline-element-title">
                 {experience.title}
               </h3>
-              <p>{experience.location}</p>
-              <p>{experience.description}</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                {experience.location}
+              </h4>
+              <p className="text-xs text-neutral-500">
+                {experience.description}
+              </p>
             </VerticalTimelineElement>
           </Fragment>
         ))}
