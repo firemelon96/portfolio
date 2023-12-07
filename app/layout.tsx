@@ -16,26 +16,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Almujahid portfolio',
     description: 'Check out my portfolio, lets connect!',
-    images: [
-      {
-        url: '/opengraph.png',
-        width: 800,
-        height: 600,
-        alt: 'social image',
-      },
-    ],
   },
   twitter: {
     title: 'Almujahid portfolio',
     description: 'Check out my portfolio, lets connect!',
-    images: [
-      {
-        url: '/opengraph.png',
-        width: 800,
-        height: 600,
-        alt: 'social image',
-      },
-    ],
   },
 };
 
