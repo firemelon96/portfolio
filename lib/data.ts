@@ -137,7 +137,7 @@ export const projectsData = [
       'MongoDB',
       'Prisma',
     ],
-    imageUrl: lms,
+    imageUrl: airbnb,
     url: 'https://lms-project-flame.vercel.app/',
   },
   {
