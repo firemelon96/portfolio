@@ -3,9 +3,15 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { TbBrandJavascript } from 'react-icons/tb';
 import aipromt from '@/public/ai-prompt.png';
-import ecommerce from '@/public/ecommerce.png';
 import filmpire from '@/public/filmpire.png';
 import realtor from '@/public/realtor.png';
+import airbnb from '@/public/airbnb.png';
+import cotion from '@/public/cotion.png';
+import inventory from '@/public/inventory.png';
+import mapty from '@/public/mapty.png';
+import taskify from '@/public/taskify.png';
+import unplug from '@/public/unplug.png';
+import lms from '@/public/lms.png';
 
 export const links = [
   {
@@ -63,6 +69,46 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Taskify SAAS',
+    description:
+      'Create Boards, lists, and cards using taskify (software as a service) with free 5 boards. Ungrade to pro to create more.',
+    tags: [
+      'Reactjs',
+      'Nextjs',
+      'Typescript',
+      'Tailwind',
+      'Clerk auth',
+      'Prisma',
+      'mongodb',
+    ],
+    imageUrl: taskify,
+    url: 'https://taskify-saas.vercel.app/',
+  },
+  {
+    title: 'Cotion SAAS',
+    description:
+      'A software as a service tool to create your note, task and many more. With unlimited pages and soft delete.',
+    tags: ['React', 'Nextjs', 'Tailwind', 'Typescript', 'Clerk auth', 'convex'],
+    imageUrl: cotion,
+    url: 'https://cotion-text-app.vercel.app/',
+  },
+  {
+    title: 'Unplug chat',
+    description:
+      'An app to create your own server and discussions. Register now and try it free',
+    tags: ['React', 'Nextjs', 'Tailwind', 'Typescript', 'Clerk auth', 'convex'],
+    imageUrl: unplug,
+    url: 'https://uplug-chat.vercel.app/',
+  },
+  {
+    title: 'Learning management system',
+    description:
+      'A web app developed using nextjs. A learning management system like udemy where student can enroll to a course and track their progress',
+    tags: ['React', 'Nextjs', 'Typescript', 'Tailwind', 'Clerk auth', 'convex'],
+    imageUrl: lms,
+    url: 'https://lms-project-flame.vercel.app/',
+  },
+  {
     title: 'Filmpire',
     description:
       'An app that is used to browse movies using TMDB API, I develop the app using Vanilla React.',
@@ -79,12 +125,12 @@ export const projectsData = [
     url: 'https://project-promptopia-rust.vercel.app/',
   },
   {
-    title: 'Ecommerce',
+    title: 'Inventory app',
     description:
-      'A fully functioning multi-vendor ecommerce store developed using Nextjs and reactjs that user can create and list their product',
+      'An Inventory solution for stocks using Mongodb, ExpressJs, ReactJs, and NodeJs (MERN-stack).',
     tags: ['React', 'Next.js', 'TypeScript', 'Prisma', 'Tailwind'],
-    imageUrl: ecommerce,
-    url: 'https://filmpireaji.netlify.app/',
+    imageUrl: inventory,
+    url: 'https://mern-inventory-frontend.vercel.app/',
   },
   {
     title: 'Realtor Clone',
@@ -93,6 +139,14 @@ export const projectsData = [
     tags: ['React', 'Tailwind', 'Firebase'],
     imageUrl: realtor,
     url: 'https://realtor-clone-ebon.vercel.app/',
+  },
+  {
+    title: 'Mapty',
+    description:
+      'A Project developed while learning Javascript Beginner to Expert.',
+    tags: ['Javascript', 'Leaflet'],
+    imageUrl: mapty,
+    url: 'https://mapty-almujahid.netlify.app/',
   },
 ];
 

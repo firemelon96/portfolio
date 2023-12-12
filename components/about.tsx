@@ -14,7 +14,7 @@ export const About = () => {
     >
       <MotionDiv delay={0.175}>
         <SectionHeading title="About me" />
-        <p className="text-justify text-neutral-600 text-xl dark:text-white/60">
+        <p className="text-center text-neutral-600 text-xl dark:text-white/60">
           After graduating with a degree of Bachelor of science in Information
           Technology, I work in a Real estate company as a web developer. A year
           after, I transitioned into another company where i worked as a
