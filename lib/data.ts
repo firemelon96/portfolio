@@ -10,6 +10,7 @@ import cotion from '@/public/cotion.png';
 import inventory from '@/public/inventory.png';
 import mapty from '@/public/mapty.png';
 import taskify from '@/public/taskify.png';
+import gamerhub from '@/public/gamerhub.png';
 import unplug from '@/public/unplug.png';
 import lms from '@/public/lms.png';
 
@@ -68,6 +69,23 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'GamerHub Stream app',
+    description:
+      'Streaming web app developed using modern web technologies such as ReactJs, custom webhook, and NextJs server actions together with Livekit api to handle Ingress, chat and Live video.',
+    tags: [
+      'Reactjs',
+      'Nextjs',
+      'Typescript',
+      'Tailwind',
+      'Clerk auth',
+      'Prisma',
+      'mongodb',
+      'livekit',
+    ],
+    imageUrl: gamerhub,
+    url: 'https://gamerhub-eight.vercel.app/',
+  },
   {
     title: 'Taskify SAAS',
     description:
