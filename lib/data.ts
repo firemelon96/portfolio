@@ -2,17 +2,12 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { TbBrandJavascript } from 'react-icons/tb';
-import aipromt from '@/public/ai-prompt.png';
-import filmpire from '@/public/filmpire.png';
-import realtor from '@/public/realtor.png';
-import airbnb from '@/public/airbnb.png';
-import cotion from '@/public/cotion.png';
-import inventory from '@/public/inventory.png';
-import mapty from '@/public/mapty.png';
-import taskify from '@/public/taskify.png';
-import gamerhub from '@/public/gamerhub.png';
-import unplug from '@/public/unplug.png';
-import lms from '@/public/lms.png';
+import solteros from '@/public/solteros.webp';
+import palawenyo from '@/public/palawenyo.webp';
+import clarkkent from '@/public/clarkkent.webp';
+import allinImage from '@/public/allinfreediving.webp';
+import icapture from '@/public/icapture.webp';
+import cliffandwaves from '@/public/cliffandwaves.webp';
 
 export const links = [
   {
@@ -20,16 +15,12 @@ export const links = [
     hash: '#home',
   },
   {
-    name: 'About',
-    hash: '#about',
+    name: 'Skills',
+    hash: '#skills',
   },
   {
     name: 'Projects',
     hash: '#projects',
-  },
-  {
-    name: 'Skills',
-    hash: '#skills',
   },
   {
     name: 'Experience',
@@ -70,150 +61,70 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'GamerHub Stream app',
+    title: 'All in Freediving and Tour Services',
     description:
-      'Streaming web app developed using modern web technologies such as ReactJs, custom webhook, and NextJs server actions together with Livekit api to handle Ingress, chat and Live video.',
-    tags: [
-      'Reactjs',
-      'Nextjs',
-      'Typescript',
-      'Tailwind',
-      'Clerk auth',
-      'Prisma',
-      'mongodb',
-      'livekit',
-    ],
-    imageUrl: gamerhub,
-    url: 'https://gamerhub-eight.vercel.app/',
+      'A travel agency based in Coron, Palawan, specializing in tours and freediving activities.',
+    tags: ['Reactjs', 'Nextjs', 'Typescript', 'Tailwind', 'Shadcn ui'],
+    imageUrl: allinImage,
+    url: 'https://www.allinfreedivingandtourservices.com/',
   },
   {
-    title: 'Taskify SAAS',
+    title: 'Clark Kent Travel and Tour Services',
     description:
-      'Create Boards, lists, and cards using taskify (software as a service) with free 5 boards. Ungrade to pro to create more.',
-    tags: [
-      'Reactjs',
-      'Nextjs',
-      'Typescript',
-      'Tailwind',
-      'Clerk auth',
-      'Prisma',
-      'mongodb',
-    ],
-    imageUrl: taskify,
-    url: 'https://taskify-saas.vercel.app/',
+      'A travel agency offering guided tours, comfortable accommodations, and convenient motorcycle and car rentals for a seamless travel experience.',
+    tags: ['Reactjs', 'Nextjs', 'Typescript', 'Tailwind'],
+    imageUrl: clarkkent,
+    url: 'https://www.clarkkenttravelandtours.com/',
   },
   {
-    title: 'Cotion SAAS',
+    title: 'Palawenyo Travel and Tours',
     description:
-      'A software as a service tool to create your note, task and many more. With unlimited pages and soft delete.',
-    tags: ['React', 'Nextjs', 'Tailwind', 'Typescript', 'Clerk auth', 'convex'],
-    imageUrl: cotion,
-    url: 'https://cotion-text-app.vercel.app/',
+      'A travel agency in Coron offering curated travel packages for an unforgettable experience.',
+    tags: ['React', 'Nextjs', 'Typescript', 'Tailwind'],
+    imageUrl: palawenyo,
+    url: 'https://www.palawenyotravelandtours.com/',
   },
   {
-    title: 'Unplug chat',
+    title: 'I Capture Travel Services',
     description:
-      'An app to create your own server and discussions. Register now and try it free',
-    tags: [
-      'React',
-      'Nextjs',
-      'Tailwind',
-      'ShadcnUI',
-      'Typescript',
-      'Clerk auth',
-      'MySql',
-    ],
-    imageUrl: unplug,
-    url: 'https://uplug-chat.vercel.app/',
+      'A travel agency based in Coron offering tours in Puerto Princesa, El Nido, and Coron, with the flexibility to customize your own travel experience.',
+    tags: ['React', 'Nextjs', 'Typescript', 'Tailwind'],
+    imageUrl: icapture,
+    url: 'https://www.icapturetravelservices.com/',
   },
   {
-    title: 'Learning management system',
+    title: 'Cliff and Waves Travel and Tours',
     description:
-      'A web app developed using nextjs. A learning management system like udemy where student can enroll to a course and track their progress',
-    tags: [
-      'React',
-      'Nextjs',
-      'Typescript',
-      'Tailwind',
-      'Clerk auth',
-      'MongoDB',
-      'Prisma',
-    ],
-    imageUrl: lms,
-    url: 'https://lms-project-flame.vercel.app/',
+      'A travel agency located in Roxas, Palawan, offering tours and customized travel packages.',
+    tags: ['React', 'Nextjs', 'Typescript', 'Tailwind'],
+    imageUrl: cliffandwaves,
+    url: 'https://www.cliffandwavestravelandtours.com/',
   },
   {
-    title: 'Airbnb Clone',
+    title: 'Solteros Travel and Tours',
     description:
-      'A web app developed using nextjs. An Airbnb Clone with auth and property posting.',
-    tags: [
-      'React',
-      'Nextjs',
-      'Typescript',
-      'Tailwind',
-      'Clerk auth',
-      'MongoDB',
-      'Prisma',
-    ],
-    imageUrl: airbnb,
-    url: 'https://lms-project-flame.vercel.app/',
-  },
-  {
-    title: 'Filmpire',
-    description:
-      'An app that is used to browse movies using TMDB API, I develop the app using Vanilla React.',
-    tags: ['React', 'Redux toolkit', 'Tailwind', 'TMDBAPI', 'ALAN AI'],
-    imageUrl: filmpire,
-    url: 'https://filmpireaji.netlify.app/',
-  },
-  {
-    title: 'Ai Prompter',
-    description:
-      'A helpful and useful prompt that is used by users all over the world and be able to share their own prompt for others',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux', 'MongoDB'],
-    imageUrl: aipromt,
-    url: 'https://project-promptopia-rust.vercel.app/',
-  },
-  {
-    title: 'Inventory app',
-    description:
-      'An Inventory solution for stocks using Mongodb, ExpressJs, ReactJs, and NodeJs (MERN-stack).',
-    tags: ['React', 'Next.js', 'TypeScript', 'Prisma', 'Tailwind'],
-    imageUrl: inventory,
-    url: 'https://mern-inventory-frontend.vercel.app/',
-  },
-  {
-    title: 'Realtor Clone',
-    description:
-      'A listing website that is developed using react with the help of Firebase as authentication, database, and bucket storage.',
-    tags: ['React', 'Tailwind', 'Firebase'],
-    imageUrl: realtor,
-    url: 'https://realtor-clone-ebon.vercel.app/',
-  },
-  {
-    title: 'Mapty',
-    description:
-      'A Project developed while learning Javascript Beginner to Expert.',
-    tags: ['Javascript', 'Leaflet'],
-    imageUrl: mapty,
-    url: 'https://mapty-almujahid.netlify.app/',
+      'A travel agency located in Puerto Princesa offering package tours and day trips.',
+    tags: ['React', 'Nextjs', 'Typescript', 'Tailwind'],
+    imageUrl: solteros,
+    url: 'https://solteros-travel.vercel.app/',
   },
 ];
 
 export const skillsData = [
-  'HTML',
-  'CSS',
+  'ReactJs',
+  'NextJs',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Next.js',
   'Node.js',
-  'Git',
-  'Tailwind',
+  'Tailwind css',
+  'Shadcn ui',
   'Prisma',
   'MongoDB',
+  'REST API',
   'Redux',
   'Express',
   'PostgreSQL',
-  'Framer Motion',
+  'Git',
+  'On-Page SEO',
+  'Drizzle ORM',
 ] as const;

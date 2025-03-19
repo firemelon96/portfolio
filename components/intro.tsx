@@ -38,12 +38,13 @@ export const Intro = () => {
       </div>
       <MotionDiv className='flex flex-col items-center justify-center mt-5'>
         <h1 className='text-3xl text-center'>
-          Hello my name is <strong>Almujahid Jamion</strong>
+          My name is <strong>Almujahid Jamion</strong>
         </h1>
-        <p className='text-2xl text-center max-w-lg text-gray-700 leading-[1.3] dark:text-white/60'>
-          I am a Fullstack developer with 4 years of experience in web
-          development. I always finds it challenging and enjoyable to craft a
-          web app and to read someone else code.
+        <p className='text-2xl text-center max-w-2xl text-gray-700 leading-[1.3] dark:text-white/60'>
+          I am a Software Developer passionate about transforming business ideas
+          into high-quality web applications. I specialize in building fast,
+          reliable, and scalable solutions that support business growth through
+          modern technology.
         </p>
       </MotionDiv>
       <MotionDiv
@@ -62,7 +63,7 @@ export const Intro = () => {
           <FaArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
         </Link>
         <a
-          href='/cv.pdf'
+          href='/updated-resume.pdf'
           download
           className='group bg-white text-gray-950 rounded-full px-7 py-3 flex items-center gap-2 hover:scale-110 active:scale-100 transition border border-black/10 dark:bg-white/10 dark:text-white/60'
         >

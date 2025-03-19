@@ -9,11 +9,11 @@ export const Projects = () => {
   const { ref } = useSectionInView('Projects', 0.5);
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+    <section ref={ref} id='projects' className='scroll-mt-28 mb-28'>
       <MotionDiv delay={0.2}>
-        <SectionHeading title="My Projects" />
+        <SectionHeading title='My Projects' />
 
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-3'>
           {projectsData.map((project) => (
             <ProjectItem
               key={project.title}
