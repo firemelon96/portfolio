@@ -14,7 +14,7 @@
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.4",
     "next": "^15.2.3",
-    "react": "^18",
+    "react": "^19.0.0",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
