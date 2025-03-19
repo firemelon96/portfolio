@@ -7,18 +7,19 @@ import React from 'react';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export const sendEmail = async (formData: FormData) => {
-  const sender = formData.get('senderEmail');
-  const message = formData?.get('message');
-
-  if (!validateString(sender)) {
+export const sendEmail = async (prevState: any, formData: FormData) => {
+  const email = formData.get('senderEmail');
+  const message = formData.get('message');
+  if (!validateString(email)) {
     return {
-      error: 'Invalide inputs',
+      success: false,
+      message: 'Invalide inputs',
     };
   }
   if (!validateString(message)) {
     return {
-      error: 'Invalide message',
+      success: false,
+      message: 'Invalide message',
     };
   }
 
@@ -30,10 +31,10 @@ export const sendEmail = async (formData: FormData) => {
       to: 'estong.jamion@gmail.com',
       subject: 'Message from Portfolio contact form',
       // text: message as string,
-      reply_to: sender as string,
+      reply_to: email as string,
       react: React.createElement(ContactFormEmail, {
         message: message as string,
-        senderEmail: sender as string,
+        senderEmail: email as string,
       }),
     });
   } catch (error: unknown) {
@@ -43,6 +44,8 @@ export const sendEmail = async (formData: FormData) => {
   }
 
   return {
+    success: true,
+    message: 'Email sent successfully!',
     data,
   };
 };
